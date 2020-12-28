@@ -56,7 +56,7 @@ module.exports = msgHandler = async (client, message) => {
                 Iv: '[❗] Link yang anda kirim tidak valid!'
             }
         }
-        const apiKey = 'API-KEY' // apikey you can get it at https://mhankbarbars.herokuapp.com/api
+        const apiKey = 'B4w56Fy3WQnfEyUNvQy8' // apikey you can get it at https://mhankbarbars.herokuapp.com/api
         const time = moment(t * 1000).format('DD/MM HH:mm:ss')
         const botNumber = await client.getHostNumber()
         const blockNumber = await client.getBlockedIds()
@@ -248,7 +248,7 @@ module.exports = msgHandler = async (client, message) => {
             client.sendFileFromUrl(from, epbe.result, 'epbe.mp4', epbe.title, id)
             break
         case '!creator':
-            client.sendContact(from, '6285892766102@c.us')
+            client.sendContact(from, '6289677763976@c.us')
             break
         case '!ig':
             if (args.length === 1) return client.reply(from, 'Kirim perintah *!ig [linkIg]* untuk contoh silahkan kirim perintah *!readme*')
